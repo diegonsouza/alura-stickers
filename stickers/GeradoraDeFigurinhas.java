@@ -29,12 +29,12 @@ public class GeradoraDeFigurinhas {
         graphics.drawImage(imagemOriginal, 0, 0, null);
 
         // configurar a fonte
-        var fonte = new Font(Font.SANS_SERIF, Font.BOLD, 150);
+        var fonte = new Font(Font.SANS_SERIF, Font.BOLD, 100);
         graphics.setColor(Color.YELLOW);
         graphics.setFont(fonte);
 
         // escrever uma frase na nova imagem
-        graphics.drawString("ESSE É TOP!", 100, novaAltura - 100);
+        graphics.drawString("ESSE É TOP!", 200, novaAltura - 100);
 
         // escrever a nova imagem em um arquivo
         nomeArquivo = formataNomeDoArquivo(nomeArquivo);
